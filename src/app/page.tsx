@@ -20,9 +20,16 @@ export default function Home() {
         </p>
         <a
           className={styles.contact}
-          href="mailto:hakon@blueboxas.no?subject=Contact%20from%20Landing%20Page"
+          href="mailto:hakon@blueboxas.no"
         >
           Contact Håkon Årøen
+        </a>
+        <a
+          className={styles.contact}
+          href="tel:+4790507678"
+          style={{ marginTop: '0.5em' }}
+        >
+          +47 90 50 76 78
         </a>
       </main>
       <footer className={styles.footer}>
