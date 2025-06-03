@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from "react";
 
 // Example icons (replace with your own SVGs or Heroicons)
