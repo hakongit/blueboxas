@@ -14,10 +14,7 @@ export default function Home() {
           priority
         />
         <h1 className={styles.title}>Bluebox AS</h1>
-        <h2 className={styles.tagline}>Investing in the Future. Consulting for Today.</h2>
-        <p className={styles.description}>
-          We leverage AI and technology to help businesses grow and innovate.
-        </p>
+        <h2 className={styles.tagline}>Investing in the Future. <br/>Consulting for Today.</h2>
         <a
           className={styles.contact}
           href="mailto:hakon@blueboxas.no"

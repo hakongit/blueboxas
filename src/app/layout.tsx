@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Bluebox AS – Investment & Consultancy",
-  description: "Bluebox AS is a Norwegian investment and consultancy firm helping businesses grow, innovate, and succeed.",
+  description: "Bluebox AS i - helping businesses grow, innovate, and succeed.",
 };
 
 export default function RootLayout({
