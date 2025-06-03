@@ -108,7 +108,7 @@ export default function HomePage() {
           className="relative flex items-center justify-center min-h-[70vh] bg-gradient-to-br from-[#0A1F44] via-[#2AB7CA] to-[#0A1F44] overflow-hidden"
         >
           <img
-            src="/hero-bg.jpg"
+            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80"
             alt="Modern tech office environment"
             className="absolute inset-0 w-full h-full object-cover opacity-30"
           />
@@ -173,19 +173,19 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row gap-8 justify-center">
             {/* Team Member 1 */}
             <div className="flex flex-col items-center">
-              <img src="/team1.jpg" alt="Håkon Årøen, CEO" className="w-24 h-24 rounded-full object-cover mb-2 border-4 border-[#2AB7CA]" />
+              <img src="https://ui-avatars.com/api/?name=Håkon+Årøen&background=2AB7CA&color=fff&size=128" alt="Håkon Årøen, CEO" className="w-24 h-24 rounded-full object-cover mb-2 border-4 border-[#2AB7CA]" />
               <span className="font-semibold">Håkon Årøen</span>
               <span className="text-gray-500 text-sm">CEO</span>
             </div>
             {/* Team Member 2 */}
             <div className="flex flex-col items-center">
-              <img src="/team2.jpg" alt="Lead Consultant" className="w-24 h-24 rounded-full object-cover mb-2 border-4 border-[#2AB7CA]" />
+              <img src="https://ui-avatars.com/api/?name=Jane+Doe&background=2AB7CA&color=fff&size=128" alt="Lead Consultant" className="w-24 h-24 rounded-full object-cover mb-2 border-4 border-[#2AB7CA]" />
               <span className="font-semibold">Jane Doe</span>
               <span className="text-gray-500 text-sm">Lead Consultant</span>
             </div>
             {/* Team Member 3 */}
             <div className="flex flex-col items-center">
-              <img src="/team3.jpg" alt="AI Specialist" className="w-24 h-24 rounded-full object-cover mb-2 border-4 border-[#2AB7CA]" />
+              <img src="https://ui-avatars.com/api/?name=John+Smith&background=2AB7CA&color=fff&size=128" alt="AI Specialist" className="w-24 h-24 rounded-full object-cover mb-2 border-4 border-[#2AB7CA]" />
               <span className="font-semibold">John Smith</span>
               <span className="text-gray-500 text-sm">AI Specialist</span>
             </div>
@@ -200,7 +200,7 @@ export default function HomePage() {
             <div className="bg-white rounded-xl shadow p-6 border border-gray-200">
               <p className="text-gray-700 mb-4">“Bluebox AS helped us unlock new revenue streams with their AI expertise.”</p>
               <div className="flex items-center space-x-3">
-                <img src="/client1-logo.png" alt="Client 1 logo" className="w-8 h-8" />
+                <img src="https://ui-avatars.com/api/?name=TechCorp&background=0A1F44&color=fff&size=64" alt="Client 1 logo" className="w-8 h-8" />
                 <span className="font-semibold">Anna L., CTO, TechCorp</span>
               </div>
             </div>
@@ -208,7 +208,7 @@ export default function HomePage() {
             <div className="bg-white rounded-xl shadow p-6 border border-gray-200">
               <p className="text-gray-700 mb-4">“Their data engineering team delivered beyond expectations.”</p>
               <div className="flex items-center space-x-3">
-                <img src="/client2-logo.png" alt="Client 2 logo" className="w-8 h-8" />
+                <img src="https://ui-avatars.com/api/?name=DataFlow&background=0A1F44&color=fff&size=64" alt="Client 2 logo" className="w-8 h-8" />
                 <span className="font-semibold">Mark S., COO, DataFlow</span>
               </div>
             </div>
@@ -216,7 +216,7 @@ export default function HomePage() {
             <div className="bg-white rounded-xl shadow p-6 border border-gray-200">
               <p className="text-gray-700 mb-4">“We modernized our business in record time. Highly recommended!”</p>
               <div className="flex items-center space-x-3">
-                <img src="/client3-logo.png" alt="Client 3 logo" className="w-8 h-8" />
+                <img src="https://ui-avatars.com/api/?name=InnovateX&background=0A1F44&color=fff&size=64" alt="Client 3 logo" className="w-8 h-8" />
                 <span className="font-semibold">Sara P., CEO, InnovateX</span>
               </div>
             </div>
@@ -229,7 +229,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Blog Post 1 */}
             <div className="bg-white rounded-xl shadow-md overflow-hidden">
-              <img src="/blog1.jpg" alt="Blog post 1 thumbnail" className="w-full h-48 object-cover" />
+              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Blog post 1 thumbnail" className="w-full h-48 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">How AI is Transforming Business Strategy</h3>
                 <p className="text-gray-600 text-sm mb-2">April 10, 2025</p>
@@ -239,7 +239,7 @@ export default function HomePage() {
             </div>
             {/* Blog Post 2 */}
             <div className="bg-white rounded-xl shadow-md overflow-hidden">
-              <img src="/blog2.jpg" alt="Blog post 2 thumbnail" className="w-full h-48 object-cover" />
+              <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Blog post 2 thumbnail" className="w-full h-48 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Data Engineering Best Practices in 2025</h3>
                 <p className="text-gray-600 text-sm mb-2">March 28, 2025</p>
