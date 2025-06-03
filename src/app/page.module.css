@@ -210,3 +210,11 @@ a.secondary {
   box-shadow: 0 4px 24px rgba(0, 112, 243, 0.15);
   transform: translateY(-2px) scale(1.03);
 }
+
+.logo {
+  display: block;
+  margin: 0 auto 1.2em auto;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0, 112, 243, 0.08);
+  background: #fff;
+}

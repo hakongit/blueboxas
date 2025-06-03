@@ -1,13 +1,22 @@
+import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <Image
+          src="/bluebox-logo.svg"
+          alt="Bluebox AS logo"
+          width={80}
+          height={80}
+          className={styles.logo}
+          priority
+        />
         <h1 className={styles.title}>Bluebox AS</h1>
         <h2 className={styles.tagline}>Investing in the Future. Consulting for Today.</h2>
         <p className={styles.description}>
-          Bluebox AS is a Norwegian investment and consultancy firm helping businesses grow, innovate, and succeed. We combine deep market insight with hands-on expertise to deliver real results for our clients.
+          Norwegian investment & consultancy. We leverage AI and technology to help businesses grow and innovate.
         </p>
         <a
           className={styles.contact}
