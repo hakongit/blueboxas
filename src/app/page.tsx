@@ -16,7 +16,7 @@ export default function Home() {
         <h1 className={styles.title}>Bluebox AS</h1>
         <h2 className={styles.tagline}>Investing in the Future. Consulting for Today.</h2>
         <p className={styles.description}>
-          Norwegian investment & consultancy. We leverage AI and technology to help businesses grow and innovate.
+          We leverage AI and technology to help businesses grow and innovate.
         </p>
         <a
           className={styles.contact}
@@ -26,7 +26,7 @@ export default function Home() {
         </a>
       </main>
       <footer className={styles.footer}>
-        &copy; {new Date().getFullYear()} Bluebox AS. All rights reserved.
+        &copy; {new Date().getFullYear()} Bluebox AS. Org nr 911 765 586. All rights reserved.
       </footer>
     </div>
   );
