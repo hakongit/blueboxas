@@ -17,9 +17,9 @@ export default function Home() {
         <h2 className={styles.tagline}>Investing in the Future. <br/>Consulting for Today.</h2>
         <a
           className={styles.contact}
-          href="mailto:hakon@blueboxas.no"
+          href="mailto:kontakt@blueboxas.no"
         >
-          Contact Håkon Årøen
+          Email: kontakt@blueboxas.no
         </a>
         <a
           className={styles.contact}
