@@ -24,11 +24,11 @@ export default function Home() {
 
           <h1 className={styles.title}>Bluebox AS</h1>
 
-          <p className={styles.tagline}>Building Tomorrow.</p>
-          <p className={styles.taglineSub}>Helping You Grow &amp; Succeed.</p>
+          <p className={styles.tagline}>Software That Thinks.</p>
+          <p className={styles.taglineSub}>So you can move faster.</p>
 
           <p className={styles.description}>
-            We build intelligent solutions and craft software that thinks ahead — so your business doesn&apos;t have to stand still.
+            Intelligent solutions from concept to production — built to adapt, scale, and deliver.
           </p>
 
           <div className={styles.contactGroup}>

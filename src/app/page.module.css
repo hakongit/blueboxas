@@ -97,7 +97,7 @@
     );
   animation:
     cardEnter 0.8s cubic-bezier(0.16, 1, 0.3, 1) both,
-    borderSpin 8s ease-in-out infinite;
+    borderSpin 12s ease-in-out infinite;
 }
 
 /* Glow trail behind the dot */
@@ -122,7 +122,7 @@
 
 @keyframes borderSpin {
   0%   { --border-angle: 0deg; }
-  40%  { --border-angle: 360deg; }
+  75%  { --border-angle: 360deg; }
   100% { --border-angle: 360deg; }
 }
 
